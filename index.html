@@ -39,7 +39,7 @@
 		<div class="container">
 			<!-- logo -->
 			<a class="site-logo" href="index.html">
-				<img src="img/logo.png" alt="">
+				<img src="img/voltnoc.png" height="60" width="140" alt="">
 			</a>
 			<div class="user-panel">
 				<a class="social-buttons" href="http://www.facebook.com/profile.php?id=">
@@ -65,11 +65,12 @@
 			<!-- site menu -->
 			<nav class="main-menu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="review.html">Games</a></li>
-					<li><a href="categories.html">Blog</a></li>
-					<li><a href="community.html">Forums</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="nav-item active"><a href="#home" class="scroll nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#games" class="scroll nav-link">Games</a></li>
+					<li class="nav-item"><a href="#tournaments" class="scroll nav-link">Tournaments</a></li>
+					<li class="nav-item"><a href="#team" class="scroll nav-link">Team</a></li>
+					<li class="nav-item"><a href="#about" class="scroll nav-link">About </a></li>
+					<li class="nav-item"><a href="#contact" class="scroll nav-link">Contact </a></li>
 				</ul>
 			</nav>
 		</div>
@@ -78,23 +79,36 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section">
+	<section id="home" class="hero-section">
 		<div class="hero-slider owl-carousel">
 			<div class="hs-item set-bg" data-setbg="img/slider-1.jpg">
 				<div class="hs-text">
 					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br> lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. <br>Suspendisse cursus faucibus finibus.</p>
-						<a href="#" class="site-btn">Read More</a>
+						<p>INDIA’S FIRST EVER PLATFORM PROVIDING STUDENTS A CAREER IN ESPORTS</p>
+						<h2>Voltfraction <span>Gaming</span></h2>
+						
+						<p>There are millions of gamers across the country who want to take the plunge and make big name and fame in Esports. <br> Here’s the once in a lifetime opportunity to make theirdream come true!</p>
+						<!-- <a href="#" class="site-btn">Read More</a> -->
 					</div>
 				</div>
 			</div>
 			<div class="hs-item set-bg" data-setbg="img/slider-2.jpg">
 				<div class="hs-text">
 					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br> lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. <br>Suspendisse cursus faucibus finibus.</p>
-						<a href="#" class="site-btn">Read More</a>
+						<h2>VoltFraction College Club <span></span></h2>
+						<p>(SCHOOL CLUBS COMING SOON)</p>
+						<p>Here’s your chance to lead the gaming revolution in your college.  <br> Set-up club in your campus, recruit a team of top tier talent and the war is on!  <br>(P.S Heads and Official seasons team will earn monthly salaries.)</p>
+						<a href="#" class="site-btn">Click Here</a>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/slider-2.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<h2>VoltFraction Gaming Community<span></span> </h2>
+						<p>(Free Beta Access to the Mentorship Programme, Monthly Giveaways, Tournament Discounts,<br> Rewards and much more for active members) </p>
+						<p>Be a part of one of the most interactive gaming community in the country.  <br> In the end, it’s the likeminded people in your life who’ll help you grow. <br>Connect with passionate gamers from around the globe and make your new social circle!</p>
+						<!-- <a href="#" class="site-btn">Read More</a> -->
 					</div>
 				</div>
 			</div>
@@ -248,20 +262,24 @@
 	
 <div class="gaming-video-wrap">
 	<div class="video">
-		<video width="1520" height="857" playsinline autoplay muted loop>
+		<video width="1520" height="757" playsinline autoplay muted loop>
 			<source src="img/videoplayback.mp4" type="video/mp4">
 			<!-- <source src="movie.ogg" type="video/ogg"> -->
 			Your browser does not support the video tag.
 		  </video>	
 	</div>
 	<!-- <div class="stack-top"></div> -->
-	<!-- <div class="stack-top-text">
+	<div class="stack-top-text">
 		<span id="heading">VoltFraction <span id="heading-white">Gaming Community</span></span>
 		<br>
-		<span id="desc">Be a part of one of the most interactive gaming community in the country. </span><br>
-		<span id="desc">In the end, it’s the likeminded people in your life who’ll help you grow.  </span><br>
-		<span id="desc">Connect with passionate gamers from around the globe and make your new social circle!</span>
-	</div> -->
+		<span id="desc">Be a part of one of the most interactive gaming community in the country.In the end, it’s the likeminded people in your life who’ll help you grow.
+			Connect with passionate gamers from around the globe and make your new social circle!	 </span>
+	    <span id="desc" class="d-none d-xl-block">(Free Beta Access to the Mentorship Programme, Monthly Giveaways, Tournament Discounts, Rewards and much more for active members) </span>
+		<br><a href="#" class="site-btn">Discord</a>
+		<!-- <span id="desc">  </span><br>
+		<span id="desc">Connect with passionate gamers from around the globe and make your new social circle!</span> -->
+	</div>
+
 	
 </div>
 
@@ -405,7 +423,7 @@
         </section>
 		<!-- about_us part end-->
 		<!-- notification section -->
-	<section class="notification">
+	<section class="notification" id="team">
 
 		<canvas id='beerCanvas'></canvas>
 		<div class="coming_content">
@@ -452,7 +470,7 @@
 	</section>
 	<!-- notification section ends -->
 	 <!-- pricing part start-->
-	 <section class="pricing_part padding_top" style="background-image: url('img/event_bg.png'); background-repeat: no-repeat;">
+	 <section id="tournaments" class="pricing_part padding_top" style="background-image: url('img/event_bg.png'); background-repeat: no-repeat;">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-3">
@@ -521,15 +539,15 @@
 
 
 	<!-- Review section -->
-	<section class="review-section spad set-bg" data-setbg="img/review-bg.png">
+	<section id="games" class="review-section spad set-bg" data-setbg="img/review-bg.png">
 		<div class="container">
 			<div class="section-title">
 				<div class="cata new">new</div>
 				<h2 id="heading">Recent Games</h2>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
+				<div class="col-lg-3 col-md-6 games">
+					<div class="review-item ">
 						<div class="review-cover set-bg" data-setbg="img/review/1.jpg">
 							<div class="score yellow">9.3</div>
 						</div>
@@ -539,7 +557,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 games">
 					<div class="review-item">
 						<div class="review-cover set-bg" data-setbg="img/review/2.jpg">
 							<div class="score purple">9.5</div>
@@ -550,7 +568,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 games">
 					<div class="review-item">
 						<div class="review-cover set-bg" data-setbg="img/review/3.jpg">
 							<div class="score green">9.1</div>
@@ -561,9 +579,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/4.jpg">
+				<div class="col-lg-3 col-md-6 games">
+					<div class="review-item  ">
+						<div class="review-cover set-bg " data-setbg="img/review/4.jpg">
 							<div class="score pink">9.7</div>
 						</div>
 						<div class="review-text">
@@ -667,14 +685,15 @@
 
 	
 	<!-- Footer section -->
-	<footer class="footer-section">
+	<footer class="footer-section" id="contact">
 		<div class="container">
 			<ul class="footer-menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="review.html">Games</a></li>
-				<li><a href="categories.html">Blog</a></li>
-				<li><a href="community.html">Forums</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				    <li class="nav-item active"><a href="#home" class="scroll nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#games" class="scroll nav-link">Games</a></li>
+					<li class="nav-item"><a href="#tournaments" class="scroll nav-link">Tournaments</a></li>
+					<li class="nav-item"><a href="#team" class="scroll nav-link">Team</a></li>
+					<li class="nav-item"><a href="#about" class="scroll nav-link">About </a></li>
+					<li class="nav-item"><a href="#contact" class="scroll nav-link">Contact </a></li>
 			</ul>
 			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>

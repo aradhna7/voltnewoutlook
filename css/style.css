@@ -254,7 +254,7 @@ ol {
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 	clear: both;
 	overflow: hidden;
-	padding: 18px 0;
+	padding: 4px 0;
 	border-bottom: 1px solid #ae41e4;
 	position: absolute;
 	z-index:10000;
@@ -271,7 +271,7 @@ ol {
 	float: right;
 	font-weight: 500;
 	/* background: #ffb320; */
-	padding: 8px 28px;
+	padding: 19px 28px;
 	/* border-radius: 30px; */
 }
 
@@ -286,6 +286,7 @@ ol {
 }
 
 .main-menu ul {
+	padding-top: 2%;
 	list-style: none;
 }
 
@@ -345,6 +346,7 @@ ol {
 }
 
 .hero-slider .hs-text p {
+font-size: 16px;
 	color: #fff;
 	margin-bottom: 30px;
 	position: relative;
@@ -681,11 +683,14 @@ ol {
 	z-index: 10000;
 }
 
+
+
 .review-item .review-cover {
 	position: relative;
 	margin-bottom: 30px;
 	height: 345px;
 }
+
 
 .review-item .review-cover .score {
 	position: absolute;
@@ -722,6 +727,15 @@ ol {
 	text-align: center;
 }
 
+.review-section .games{
+	box-shadow: 0 1px 1px rgb(82, 80, 80), 0 1px 1px rgb(82, 80, 80);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.review-section .games:hover {
+	box-shadow: 0 7px 14px rgb(82, 80, 80), 0 5px 5px rgb(82, 80, 80);
+}
+
 .review-item .review-text h5 {
 	margin-bottom: 20px;
 }
@@ -737,6 +751,16 @@ ol {
 .review-item .rating i {
 	font-size: 12px;
 }
+
+
+
+
+/* .games :hover{
+	box-shadow: 0 7px 14px rgb(82, 80, 80), 0 5px 5px rgb(82, 80, 80);
+}  */
+
+
+
 
 /*----------------------
   Footer top Section
@@ -1821,7 +1845,7 @@ ol {
 	  /* width:100vh; */
 	  /* height:100vh; */
 	  /* position: absolute; */
-	  width:1160px;
+	  /* width:1160px; */
 	  display: inline;
 	  background-color: black;
 	  z-index: 1000;
@@ -1829,12 +1853,22 @@ ol {
 	  /* height: auto; */
   }
 
+
+  .stack-top-text .site-btn{
+	  font-size: 15px;
+	  margin-top: 2%;
+  }
+  
+
   .gaming-video-wrap{
+	position:relative;
 	  background-color:black;
 	  /* padding-bottom:10px; */
   }
 
   .video{
+	position:relative;
+    z-index:0;
 	  width:100%;
 	  height: auto;
   }
@@ -1845,24 +1879,196 @@ ol {
   }
 
   .stack-top-text{
-	  padding: 4%;
-	position: relative;
+	padding:160px 40px;
+	position:absolute;
+    top:10%;
+	left:10%;
+	bottom: 10%;
+	right: 10%;
+    z-index:1;
+
 	align-items: center;
 	display: inline-block;
 	z-index: 1000;
 	justify-content: center;
 	align-items: center;
+
   }
 
+
+
   .stack-top-text #desc{
-	  padding: 3%;
-	  font-size: 25px;
+	  padding: 0%;
+	  font-size: 21px;
+	  color: white;
+	  /* left:50%; */
+	  /* text-align: center; */
+	align-items: center;
+  }
+
+  .stack-top-text #heading{
+	
+color:white;
+padding:25px 0;
+font-size:44px;
+font-weight:800;
+color:white;
+padding-bottom: 14%;
+}
+
+@media (max-width:1173px){
+	.stack-top-text{
+		position:absolute;
+		top:17%;
+		left:5%;
+		z-index:1;
+		padding: 2%;
+		align-items: center;
+		display: inline-block;
+		z-index: 1000;
+		justify-content: center;
+		align-items: center;
+	  }
+
+	  .stack-top-text #desc{
+		padding: 0%;
+		font-size: 20px;
+		color: white;
+		left:50%;
+		text-align: center;
+	  align-items: center;
+	}
+  
+	.stack-top-text #heading{
+	  padding: 0%;
+	  font-size: 40px;
 	  color: white;
 	  left:50%;
 	  text-align: center;
 	align-items: center;
   }
+}
 	
+
+@media (max-width:800px){
+	.stack-top-text{
+		position:absolute;
+		top:8%;
+		left:5%;
+		z-index:1;
+		padding: 2%;
+		align-items: center;
+		display: inline-block;
+		z-index: 1000;
+		justify-content: center;
+		align-items: center;
+	  }
+
+	  .stack-top-text #desc{
+		padding: 0%;
+		font-size: 15px;
+		color: white;
+		left:50%;
+		text-align: center;
+	  align-items: center;
+	}
+  
+	.stack-top-text #heading{
+	  padding: 0%;
+	  font-size: 35px;
+	  color: white;
+	  left:50%;
+	  text-align: center;
+	align-items: center;
+  }
+
+  .stack-top-text .site-btn{
+	margin-top: 2%;
+	font-size: 14px;
+	padding: 9px 11px;
+     min-width: 90px;
+}
+}
+
+@media (max-width:500px){
+	.stack-top-text{
+		position:absolute;
+		top:8%;
+		left:5%;
+		z-index:1;
+		padding: 2%;
+		align-items: center;
+		display: inline-block;
+		z-index: 1000;
+		justify-content: center;
+		align-items: center;
+	  }
+
+	  .stack-top-text #desc{
+		padding: 0%;
+		font-size: 15px;
+		color: white;
+		left:50%;
+		text-align: center;
+	  align-items: center;
+	}
+  
+	.stack-top-text #heading{
+	  padding: 0%;
+	  font-size: 30px;
+	  color: white;
+	  left:50%;
+	  text-align: center;
+	align-items: center;
+  }
+
+  .stack-top-text .site-btn{
+	margin-top: 2%;
+	font-size: 14px;
+	padding: 7px 9px;
+     min-width: 90px;
+}
+}
+
+@media (max-width:500px){
+	.stack-top-text{
+		position:absolute;
+		top:3%;
+		left:2%;
+		z-index:1;
+		padding: 2%;
+		align-items: center;
+		display: inline-block;
+		z-index: 1000;
+		justify-content: center;
+		align-items: center;
+	  }
+
+	  .stack-top-text #desc{
+		padding: 0%;
+		font-size: 10px;
+		color: white;
+		left:50%;
+		text-align: center;
+	  align-items: center;
+	}
+  
+	.stack-top-text #heading{
+	  padding: 0%;
+	  font-size: 20px;
+	  color: white;
+	  left:50%;
+	  text-align: center;
+	align-items: center;
+  }
+
+  .stack-top-text .site-btn{
+	margin-top: 2%;
+	font-size: 14px;
+	padding: 5px 9px;
+     min-width: 90px;
+}
+}
   
 .review-section #heading{
 	color:white;
@@ -1887,7 +2093,7 @@ ol {
 	position: relative;
 	width: 100%;
 	height: 80%;
-	background: radial-gradient(circle, #142346, black);
+	background: radial-gradient(circle, #694eae, black);
   }
   
   @media (max-width: 500px) { 
@@ -1918,7 +2124,7 @@ ol {
 	z-index: 101;
   }
   .coming_content h1 {
-	
+	font-family: 'Aclonica', sans-serif;
 	font-size: 40px;
 	margin: 0;
 	letter-spacing: 1px;
