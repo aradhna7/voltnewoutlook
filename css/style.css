@@ -2162,7 +2162,7 @@ padding-bottom: 14%;
 	position: relative;
 	width: 100%;
 	height: 80%;
-	background: radial-gradient(circle, #694eae, black);
+	background: radial-gradient(circle, black, black);
   }
   
   @media (max-width: 500px) { 
@@ -4521,3 +4521,21 @@ padding-bottom: 14%;
   
   
   /* ----------Header Ends Here ---------- */
+
+
+
+
+
+
+
+
+  .bottom-layer {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -73px;
+    width: 100%;
+    height: 74px;
+    background: url center top repeat-x;
+    z-index: 2;
+}
