@@ -197,7 +197,7 @@
 			</ol>
 			<div class="carousel-inner" role="listbox">
 			  <!-- Slide One - Set the background image for this slide in the line below -->
-				<div class="carousel-item active" style="background-image: url('img/slider-1.jpg')">
+				<div class="carousel-item active" style="background-image: url('img/20.png')">
 					<div class="carousel-content">
 							<div class="container row">
 								<div class="banner-content col-md-12">
@@ -220,7 +220,7 @@
 					</div>
 				</div>
 			  <!-- Slide Two - Set the background image for this slide in the line below -->
-			  <div class="carousel-item" style="background-image: url('img/slider-2.jpg')">
+			  <div class="carousel-item" style="background-image: url('img/14.jpg')">
 				<div class="carousel-content">
 					<div class="container row">
 						<div class="banner-content col-md-12">
@@ -237,7 +237,7 @@
 				</div>
 			  </div>
 			  <!-- Slide Three - Set the background image for this slide in the line below -->
-			  <div class="carousel-item" style="background-image: url('img/slider-2.jpg')">
+			  <div class="carousel-item" style="background-image: url('img/22.png')">
 				<div class="carousel-content">
 					<div class="container row">
 						<div class="banner-content col-md-12">
@@ -285,7 +285,7 @@
 
 
 	<!-- club section  -->
-
+<hr>
 <div class="club">
 	<div class="cards">
 		<a class="card" >
@@ -526,9 +526,9 @@
         </section>
 		<!-- about_us part end-->
 		<!-- notification section -->
-	<section class="notification" id="team">
-
-		<canvas id='beerCanvas'></canvas>
+	<section class="notification set-bg" id="team" data-setbg="img/recent-game-bg.png" >
+		<!-- <img src="img/recent-game-bg.png"> -->
+		<!-- <canvas id='beerCanvas'></canvas> -->
 		<div class="coming_content">
 		  <h1>VoltFraction Official Team Notification</h1>
 		  <div class="separator_container">
@@ -539,36 +539,89 @@
 			  </span> -->
 			</div>
 		  </div>
-		  <h3>COMING SOON</h3>
-		  <div class="button-images">
+		  <h3 class="mb-3">COMING SOON</h3>
+		<div class="button-images d-none d-sm-block">
 			<div class="one_fourth">
 				<div class="button-container">
-					 <a>Link #1</a>
+					 <a>Logo #1</a>
 					   <img src="http://www.fillmurray.com/g/300/300"/>
 				</div>
 			</div>    
-			  <div class="one_fourth">
+			<div class="one_fourth">
 				<div class="button-container">
-					 <a>Link #2</a>
+					 <a>Logo #2</a>
 					   <img src="http://www.fillmurray.com/300/300" />
 				</div>
 			</div>
-			   <div class="one_fourth">
+			<div class="one_fourth">
 				<div class="button-container">
-					 <a>Super Long </a>
-			  <div class="button-image"> 		<img src="http://www.fillmurray.com/g/300/300"/></div>
+					 <a>Logo #3</a>
+			  	<div class="button-image"> 		<img src="http://www.fillmurray.com/g/300/300"/></div>
 				</div>
 			</div>
-			   <div class="one_fourth last">
+			<div class="one_fourth last">
 				<div class="button-container">
-					 <a>Link #4</a>
+					 <a>Logo #4</a>
 					   <img src="http://www.fillmurray.com/300/300"/>
 				</div>
 			</div>
 	
-		<div class="clearboth"></div>
+			<div class="clearboth"></div>
 		</div>
-		</div>
+
+
+		<div class="container d-block d-sm-none">
+			
+			<div id="recipeCarousell" class="recipeCarousel carousel w-100 " data-ride="carousel">
+				<div class="carousel-inner w-100" role="listbox">
+	
+					
+					<div class="carousel-item active">
+						<div class="col-md-3 col-sm-6">
+							<div class="button-container">
+								<a>Link #1</a>
+								  <img src="http://www.fillmurray.com/g/300/300"/>
+						   </div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-sm-6">
+							<div class="button-container">
+								<a>Link #2</a>
+								  <img src="http://www.fillmurray.com/300/300" />
+						   </div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-sm-6">
+						<div class="button-container">
+							<a>Super Long </a>
+							 <div class="button-image"> 		
+							 <img src="http://www.fillmurray.com/g/300/300"/></div>
+					   </div>
+					</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-sm-6">
+							<div class="button-container">
+								<a>Link #4</a>
+								  <img src="http://www.fillmurray.com/300/300"/>
+						   </div>
+						</div>
+					</div>
+			
+				</div>
+				<a class="carousel-control-prev w-auto" href="#recipeCarousell" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next w-auto" href="#recipeCarousell" role="button" data-slide="next">
+					<span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+	</div> 
+	</div>
 	
 	</section>
 	<!-- notification section ends -->
@@ -901,7 +954,7 @@
 </div>
 
 <div class="container d-block d-sm-none">
-		<div id="recipeCarousel" class="carousel w-100 " data-ride="carousel">
+		<div id="recipeCarousel" class="recipeCarousel carousel w-100 " data-ride="carousel">
 			<div class="carousel-inner w-100" role="listbox">
 
 				
@@ -1240,7 +1293,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		$('.navbar-collapse').collapse('hide');
 	});
 
-	$('#recipeCarousel').carousel({
+	$('.recipeCarousel').carousel({
 			interval: 5000
 			
 		})
@@ -1266,7 +1319,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		// 		}
 		// });
 
-		$('#games .carousel .carousel-item').each(function(){
+		$('.recipeCarousel .carousel .carousel-item').each(function(){
 
 			
 
@@ -1292,6 +1345,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			
 				var checkitem = function() {
 				var $this;
+				$this = $("#recipeCarousell");
+				currentIndex = $('#recipeCarousell .carousel-inner .carousel-item.active').index() + 1;
+				
+				if ($("#recipeCarousell .carousel-inner .carousel-item:first").hasClass("active")) {
+					$this.children(".carousel-control-prev").hide();
+					$this.children(".carousel-control-next").show();
+				}
+				else if($("#recipeCarousell .carousel-inner .carousel-item:last").hasClass("active")){
+					$this.children(".carousel-control-prev").show();
+					$this.children(".carousel-control-next").hide();
+				}
+				else{
+					$this.children(".carousel-control-prev").show();
+					$this.children(".carousel-control-next").show();
+				}
+				};
+
+			checkitem();
+
+			$("#recipeCarousell").on("slid.bs.carousel", "", checkitem);
+
+			
+	// 		$('.nav-collapse').click('li', function() {
+    // $('.nav-collapse').collapse('hide');
+// });
+
+var checkitem = function() {
+				var $this;
 				$this = $("#recipeCarousel");
 				currentIndex = $('#recipeCarousel .carousel-inner .carousel-item.active').index() + 1;
 				
@@ -1299,7 +1380,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					$this.children(".carousel-control-prev").hide();
 					$this.children(".carousel-control-next").show();
 				}
-				else if(currentIndex===8){
+				else if($("#recipeCarousel .carousel-inner .carousel-item:last").hasClass("active")){
 					$this.children(".carousel-control-prev").show();
 					$this.children(".carousel-control-next").hide();
 				}
@@ -1312,11 +1393,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			checkitem();
 
 			$("#recipeCarousel").on("slid.bs.carousel", "", checkitem);
-
-			
-	// 		$('.nav-collapse').click('li', function() {
-    // $('.nav-collapse').collapse('hide');
-// });
 		
 			
 			
