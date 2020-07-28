@@ -3154,8 +3154,8 @@ padding-bottom: 24%;
 .our-team:hover .pic:before{ top: 0; }
 .our-team:hover .pic:after{ bottom: 0; }
 .our-team .pic img{
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
 }
 .our-team .social{
     width: 100%;
@@ -5351,3 +5351,16 @@ main.b-offset {
 	background: #fefefe;
 	border-color: #6441a5;
   }
+
+
+  .learning_img {
+	  text-align: center;
+	  
+	padding-bottom: 30px;
+  }
+@media(max-width:500px){
+  .cup {
+    height: 300px;
+	width: 228px;
+}}
+
