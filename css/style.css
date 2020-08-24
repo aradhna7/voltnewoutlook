@@ -110,7 +110,7 @@ ol {
 .section-title h2 {
 	font-family: 'Bree Serif', serif;
 	padding-top: 10px;
-	font-size: 45px;
+	font-size: 3.11rem;
 }
 
 .set-bg {
@@ -1724,7 +1724,7 @@ font-size: 16px;
   @media (max-width: 500px) {
 	.club .card {
 		text-align: center;
-		font-size: 14px;
+		font-size: 16px;
 	  width: 100%;
 	  font-weight: 400;
 	}
@@ -1780,6 +1780,7 @@ font-size: 16px;
 	display: block;
   }
   .club .card  .card-summary {
+	  
 	padding: 5% 5% 3% 5%;
 	justify-content: center;
   }
@@ -2744,7 +2745,7 @@ padding-bottom: 24%;
 
 @media (max-width:500px){
 	#mentorship-desc{
-		font-size: 14px;
+		font-size: 15px;
 		font-family: 'Poppins', sans-serif;
 		color:white;
 	}
@@ -4394,7 +4395,7 @@ padding-bottom: 24%;
   @media (max-width:460px) {
 	#carouselExampleIndicators .banner-content p{
 		font-family: 'Poppins', sans-serif;
-	  font-size:14px;
+	  font-size:16px;
 	  font-weight: 400;
 	  line-height: 1.8;
   }
@@ -5091,9 +5092,18 @@ main.b-offset {
 
 @media (max-width:600px){
 .jsx-917417991 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color:darkgray;
-}}
+}
+
+.page-title.jsx-917417991 {
+    color: whitesmoke;
+    padding-top: 35px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+}
 
 
 
@@ -5680,3 +5690,247 @@ main.b-offset {
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+
+
+
+
+
+
+
+
+  .sliderindias{
+	  font-weight: 900;
+	font-family: 'Poppins', sans-serif;
+	color: white; 
+	padding-bottom: 20px;
+	word-spacing: 3px;
+	font-size:30px;
+	
+  }
+
+
+  @media(max-width:450px){
+	.sliderindias{
+		font-weight: 900;
+	  font-family: 'Poppins', sans-serif;
+	  color: white; 
+	  padding-bottom: 20px;
+	  word-spacing: 3px;
+	  font-size: 20px;
+	}
+  
+  }
+
+
+  .btn.disabled, .btn:disabled {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.align-center {
+    text-align: center;
+}
+
+
+.container-contact100 {
+
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+  }
+
+
+  .contact100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 65px;
+  }
+
+  
+  
+  .contact100-form-title {
+    width: 100%;
+    display: block;
+    font-family: Poppins-Regular;
+    font-size: 30px;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 33px;
+  }
+
+
+
+.label-input100 {
+    font-family: Poppins-Regular;
+    font-size: 24px;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 55px;
+    border-bottom: none;
+    padding: 10px 6px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: white;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  color: black;
+  line-height: 3;
+  padding: 0 25px;
+}
+
+@media (max-width:800px){
+    .label-input100 {
+        font-family: Poppins-Regular;
+        font-size: 37px;
+       
+    }
+}
+
+.container-contact100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 23px;
+  }
+
+.contact100-form-btn {
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    background: #fbb710;
+  
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    color: black;
+    line-height: 1.2;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-left: 10px;
+  
+  }
+  
+  .contact100-form-btn:hover {
+    background: #f5c448;
+    color: black;
+  }
+
+
+  @media (max-width:800px){
+    .contact100-form-btn {
+		margin-top: 30px;
+		
+		
+		margin-left: 0;
+	  
+	  }
+	  .contact100-form {
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		/* display: flex; */
+		/* flex-wrap: wrap; */
+		display: inline-block;
+		padding: 0;
+		padding-top: 2rem;
+	}
+  }
+
+
+
+
+
+
+
+
+
+  .formsearch{
+	padding: 70px 212px;
+  }
+
+
+  @media(max-width:1000px){
+	.formsearch{
+		padding: 0 60px;
+	  }
+  }
+
+
+  @media(max-width:450px){
+	.formsearch{
+		padding: 50px 20px;
+	  }
+  }
+
+  @media (max-width: 1005px){
+	#recipeCarousel1 .in {
+	  max-width: 40%;
+  }}
+
+  @media (max-width: 830px){
+	#recipeCarousel1 .in{
+    max-width: 40%;
+}}
+
+
+@media(max-width:1024px){
+	#recipeCarousel1 h5{
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width: 700px){
+#recipeCarousel1 .in{
+    max-width: 90%;
+}}

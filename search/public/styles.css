@@ -2,6 +2,9 @@
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
     padding: 0;
@@ -14,7 +17,7 @@ body{
 
 
 .container-contact100 {
-    background-image: url(photo.jpg);
+
     width: 100%;  
     min-height: 100vh;
     display: -webkit-box;
@@ -31,7 +34,7 @@ body{
 
 
   .contact100-form {
-    width: 50%;
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -134,5 +137,17 @@ body{
   
   .contact100-form-btn:hover {
     background: #f5c448;
+    color: black;
+  }
+
+  .club{
+    background-image: url(photo.jpg);
+    padding:200px;
   }
   
+@media(max-width:500px){
+  .club{
+    padding:0px;
+  }}
+
+
